@@ -1,0 +1,30 @@
+.pagination{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+    border: none;
+  }
+  .total-table{
+    margin-top: 3rem;
+  }
+  .product-font{
+    font-weight: bold;
+  }
+  .page-button{
+    border: none;
+    background-color: lightblue;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    .pagination{
+      display: flex;
+      margin-top: 1rem;
+      margin-left: 60px;
+      justify-content: center;
+      border: none;
+      flex-wrap: wrap;
+    }
+  }

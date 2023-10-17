@@ -1,0 +1,102 @@
+.product-sell{
+    display: flex;
+}
+.input-cont{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.table-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 1rem;
+}
+.table-main-container{
+    background-color: white;
+    padding-inline: 30px;
+    border-radius:5px;
+}
+.table{
+    width: 100%;
+    padding-inline: 40px;
+    margin-top: 2rem;
+}
+.table-sub-container{
+    display: flex;
+    flex-direction: column;
+}
+.table-head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    color: gray;
+}
+.table-right-head{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+    gap: 13px;
+}
+.search-bar-table{
+    background-color: #F5F6F8;
+    height: 25px;
+    border-radius: 5px;
+}
+.table-data{
+    flex-basis: 25%;
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+}
+.table-dataone {
+    flex-basis: 25%;
+    margin-top: 1.9rem;
+    font-size: 12px;
+}
+.image-container{
+    flex-basis: 50%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.table-image-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.table-data-sub{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+    gap: 23px;
+}
+.table-discription{
+    display: flex;
+    flex-direction: column;
+}
+.fonts{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.sub-fonts{
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.image{
+    border-radius: 10px;
+}
+.dropdown{
+    border: none;
+    background-color: #F5F6F8;
+    padding: 5px;
+}
+.input{
+    padding: 5px;
+    border: none;
+    background-color: #F5F6F8;
+    outline: none;
+}

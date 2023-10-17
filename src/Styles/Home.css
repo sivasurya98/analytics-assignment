@@ -1,0 +1,150 @@
+.home-main-container{
+  width: 100%;
+}
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40px;
+}
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    flex-basis: 23%;
+    justify-content: center;
+    align-items: center;
+  }
+  .card img {
+    max-width: 100%;
+    height: 60%;
+  }
+  .card-fonts{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-png {
+    background-color: #E0FDEE;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+}
+  .card-invoice-png{
+    background-color: #E7DBFE;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .card-lock-png{
+    background-color: #FDAFD8;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .car-png-money{
+    background-color: #CCF3FC;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .content{
+    margin-left: 42px;
+    margin-top: 1rem;
+
+  }
+  .headings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+  .search-input{
+    border: none;
+    padding: 8px;
+    margin-right: 45px;
+    outline: none;
+  }
+  .search-icon{
+    position: relative;
+    top: 3px;
+    left: 3px;
+    padding: 8px;
+  }
+  .search-container{
+    display: flex;
+  }
+  .search-bar{
+    background-color: white;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    height: 2rem;
+    border-radius: 5px;
+  }
+  .earnings{
+    font-size: 10px;
+    color: gray;
+  }
+  .amount{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .color{
+    color: darkgreen;
+    font-weight: bold;
+  }
+  .colortwo{
+    color: red;
+    font-weight: bold;
+  }
+  .lock-png{
+    border-radius: 50px;
+  }
+  .main-chart{
+    margin-top: 1.5rem;
+  }
+  
+  @media (max-width: 575.98px) {
+    .card{
+      display: flex;
+      gap: 45px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+      flex-basis: 95%;
+      justify-content: center;
+      align-items: center;
+    }
+    .search-bar {
+      background-color: white;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 2.5rem;
+      height: 2rem;
+      border-radius: 5px;
+  }
+}

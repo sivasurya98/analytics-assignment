@@ -1,0 +1,9 @@
+.promote-container{
+    width: 100%;
+}
+
+.promote-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 14rem;
+}
