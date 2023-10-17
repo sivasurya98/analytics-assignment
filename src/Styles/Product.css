@@ -8,6 +8,8 @@
   }
   .total-table{
     margin-top: 3rem;
+    width: 100%;
+    padding-inline: 30px;
   }
   .product-font{
     font-weight: bold;
